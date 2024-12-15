@@ -1,4 +1,4 @@
-from core.exceptions import ErrorCode as CoreErrorCode, CustomException
+from app.core.exceptions import ErrorCode as CoreErrorCode, CustomException
 
 
 class ErrorCode(CoreErrorCode):

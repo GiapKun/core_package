@@ -2,7 +2,7 @@ import re
 
 from bson import ObjectId
 
-from .value import DataFormat
+from app.utils.value import DataFormat
 
 
 def check_object_id(_id: str) -> bool:

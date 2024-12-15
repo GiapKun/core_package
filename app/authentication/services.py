@@ -1,6 +1,6 @@
 from fastapi import Request
-from authentication.jwt import JWTHandler
-from authentication.exceptions import ErrorCode as AuthErrorCode
+from app.authentication.jwt import JWTHandler
+from app.authentication.exceptions import ErrorCode as AuthErrorCode
 
 class AuthenticationService:
     """Service for authentication and authorization."""

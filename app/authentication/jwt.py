@@ -1,7 +1,7 @@
 from datetime import datetime
 from jose import jwt
-from utils import converter, calculator
-from authentication.exceptions import ErrorCode as AuthErrorCode
+from app.utils import converter, calculator
+from app.authentication.exceptions import ErrorCode as AuthErrorCode
 
 class JWTHandler:
     """Handles JWT creation and validation."""

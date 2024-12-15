@@ -1,11 +1,11 @@
 from datetime import datetime
 
-from database.crud import BaseCRUD
-from utils import value
+from app.database.crud import BaseCRUD
+from app.utils import value
 
-from . import config
-from .exceptions import ErrorCode as CoreErrorCode
-from .schemas import CommonsDependencies
+from app.core import config
+from app.core.exceptions import ErrorCode as CoreErrorCode
+from app.core.schemas import CommonsDependencies
 
 
 class BaseServices:

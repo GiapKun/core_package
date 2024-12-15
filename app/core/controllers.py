@@ -1,6 +1,6 @@
-from core.schemas import CommonsDependencies
+from app.core.schemas import CommonsDependencies
 
-from .services import BaseServices
+from app.core.services import BaseServices
 
 NOT_DECLARED_SERVICE = "Service must be an instance of BaseServices. Maybe the service has not been declared when creating the class Controllers"
 

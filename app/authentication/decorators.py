@@ -1,5 +1,5 @@
 import functools
-from .exceptions import ErrorCode as AuthErrorCode
+from app.authentication.exceptions import ErrorCode as AuthErrorCode
 
 def access_control(admin: bool = False):
     """Decorator for role-based access control."""
