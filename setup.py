@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="package_core",
-    version="0.1.2",
+    version="0.1.3",
     packages=find_packages(),
     python_requires=">=3.8",
     include_package_data=True,
