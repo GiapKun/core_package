@@ -1,12 +1,12 @@
 from dependency_injector import containers, providers
 import logging
-from core.logger import setup_logger
-from database.session import DatabaseEngine
-from database.crud import BaseCRUD
-from authentication.jwt import JWTHandler
-from authentication.services import AuthenticationService
-from core.services import BaseServices
-from core.controllers import BaseControllers
+from .core.logger import setup_logger
+from .database.session import DatabaseEngine
+from .database.crud import BaseCRUD
+from .authentication.jwt import JWTHandler
+from .authentication.services import AuthenticationService
+from .core.services import BaseServices
+from .core.controllers import BaseControllers
 
 class CoreContainer(containers.DeclarativeContainer):
     """Core Dependency Injection Container"""
